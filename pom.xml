@@ -150,6 +150,7 @@
     <stax2.api.version>3.1.1</stax2.api.version>
     <rhino.version>1.7R2_2</rhino.version>
     <velocity.version>1.7</velocity.version>
+    <wicket.version>6.9.0</wicket.version>
     <woodstox.version>4.1.2</woodstox.version>
     <wsdl4j.version>1.6.2_5</wsdl4j.version>
     <wss4j.version>1.6.3</wss4j.version>
@@ -1102,6 +1103,11 @@
         <groupId>org.mvel</groupId>
         <artifactId>mvel2</artifactId>
         <version>${mvel2.version}</version>
+      </dependency>
+      <dependency>
+       <groupId>org.apache.wicket</groupId>
+        <artifactId>wicket-core</artifactId>
+        <version>${wicket.version}</version>
       </dependency>
       <dependency>
         <groupId>org.ops4j.pax.exam</groupId>
